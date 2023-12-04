@@ -1,0 +1,33 @@
+.nav {
+   
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+   background-color: black;
+   height:40px;
+ color:white;
+}
+
+li {
+  display: inline;
+  color:white;
+
+}
+
+a{
+    font-size:1rem;
+    color:green;
+}
+
+h1{
+    position:absolute;
+    left:50% ;
+    top:1px;
+}
+
+.nav{
+    position:absolute;
+    top:60px;
+    width:100%;
+  
+}

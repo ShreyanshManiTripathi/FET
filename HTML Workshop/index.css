@@ -1,0 +1,63 @@
+#header{
+    width: 100%;
+    height: 60px;
+    background-color: green;
+    text-align: center;
+    font-size: x-large;
+    color: white
+}
+
+body {
+ background-image: url("books.jpeg");
+ 
+}
+  
+#editbutton
+ {background-color: skyblue;} /* Blue */
+
+ #addbutton
+ {background-color: skyblue;} /* Blue */
+
+ #removebutton
+ {background-color:skyblue;} /* Blue */
+
+ #listbutton
+ {background-color: skyblue;} /* Blue */
+
+
+
+ .list{
+     color: white;
+ }
+
+ .footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: red;
+   color: white;
+   text-align: center;
+}
+
+
+.list1{
+    animation: font-bulger 5s ;
+
+}
+
+
+@keyframes font-bulger{
+    0%{font-size: 10px; color:aquamarine;}
+    5%{font-size: 20px; color:red;}
+    6%{font-size: 30px; color:yellow;}
+7%{font-size: 40px; color:green;}
+8%{font-size: 50px; color:brown;}
+10%{font-size: 60px; color:skyblue;}
+}
+
+
+
+.list1{
+     color: white;
+ }

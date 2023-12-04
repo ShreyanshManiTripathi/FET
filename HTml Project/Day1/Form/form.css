@@ -1,0 +1,44 @@
+#star{
+
+    font-family: Arial, Helvetica, sans-serif ;
+    color: red ;
+background-color: yellowgreen
+}
+
+
+.star{
+
+    
+    font-family: Arial, Helvetica, sans-serif ;
+    color: red ;
+background-color: yellowgreen
+}
+
+a[href^="1234"] {
+    background-color: red;
+    font-size: xx-large
+}
+
+a[href^="1234"] {
+    background-color: red;
+    font-size: xx-large
+}
+
+a[href^="1234"] {
+    background-color: red;
+    font-size: xx-large
+}
+
+
+
+
+div:nth-of-type(3n){
+    background-color: yellow
+}
+
+
+input:out-of-range{
+    background-color: pink
+}
+
+

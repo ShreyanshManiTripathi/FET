@@ -1,0 +1,12 @@
+@mixin theme($value){
+    background-color:$value 
+}
+/*helllo */
+
+.left{
+@include background-color(green)
+}
+
+.right{
+@include  background-color(pink)
+}

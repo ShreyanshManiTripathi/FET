@@ -1,0 +1,36 @@
+.banner{
+ background-image:url( books.jpeg);
+   margin:0 auto;
+    height:400px;
+    width:900px;
+    color: white;
+}
+
+
+@media all and (max-width:1000px){
+    .banner{
+width: 100%;
+/* background-size: cover; */
+background-size: contain;
+    } 
+}
+
+/* @media all and (orientation:landscape){
+    #rectangle{
+        background-color: green;    
+     width:40%;
+     height:50%;
+  
+    border-radius:50%;
+    
+   
+
+
+    } */
+
+
+
+
+
+
+

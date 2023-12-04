@@ -1,0 +1,19 @@
+.table {
+  border: 2px solid purple;
+}
+
+.tr {
+  font-size: 30px;
+}
+
+.td {
+  background-color: lightcoral;
+}
+
+.circle {
+  border: 2px solid;
+  border-radius: 30px;
+  background-color: lightgreen;
+  width: 100px;
+}
+/*# sourceMappingURL=index.css.map */

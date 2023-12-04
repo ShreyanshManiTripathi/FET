@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to javascript</title>
+</head>
+
+<body>
+    <p>...</p>
+    <script type="text/javascript">
+        var text = "";
+        var i = 1;
+        var count = 1;
+        while (i < 101) {
+            if (count == 10) {
+                text += i + '<br>';
+                document.querySelector("p").innerHTML = text;
+
+                count = 1
+            } else {
+                text += i;
+                document.querySelector("p").innerHTML = text;
+                count++
+
+            }
+            i++;
+        }
+    </script>
+</body>
+
+</html>

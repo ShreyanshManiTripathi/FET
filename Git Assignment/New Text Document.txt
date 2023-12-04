@@ -1,0 +1,113 @@
+1.Initialize an empty repoitory for your project
+2.Create develop branch,QA branch then merge it back into the master.
+3.Create a branch from develop branch and merge only in develop branch.
+4.Try to understand the git directory structure.
+5.Try to create the merge conflicts and resolve it using mergetool.
+6.Create the repository on Github.
+7.Push your existing code from local to the remote(Github)
+
+git --version check git is present
+
+ \\ct-share\UtilitiesForAll\GIT (Install from this location)
+
+ git config --global user.name <name>
+
+ git config user.name For checking name
+
+ git config --global user.email <email>
+
+ git config user.email For checking email
+git init (Intialize the git repository)
+touch sample.txt create one sample file
+
+ vim sample.txt
+
+ git add sample.txt add to staging area
+
+ git status
+
+ git commit -m "First commit"
+git log
+
+ git status
+
+How to remove the file
+
+ git rm <file_name>
+
+Branching and Merging
+
+git branch
+git branch feature
+
+ git branch
+
+ git checkout feature
+
+ git checkout -b feature (create + checkout)
+ls list of files
+
+ touch login.txt vim login.txt
+git add login.txt
+
+ git status
+git commit -m "Commit on feature branch"
+
+ git log
+
+ git checkout master
+
+ ls (sample.txt should be visible)
+
+ git merge feature
+
+ ls (sample.txt and login.txt should be visible)
+
+ git log 3 commit IDs are present
+
+ vim sample.txt make change in sample.txt at line one
+
+ git add.
+
+ git commit -m "updated the master sample.txt"
+
+ git checkout feature
+
+ vim sample.txt make change in sample.txt at line one but in feature
+
+ git add.
+git commit -m "updated the feature sample.txt"
+
+ git checkout master
+git merge feature
+
+ git mergetool
+
+ git add sample.txt
+
+ git commit -m "Merge"
+vim sample.txt
+
+Github
+
+git clone <Repository_URL> (To clone existing repo)
+
+git init
+
+touch navbar.txt
+
+git status
+
+git add navbar.txt
+
+git status
+
+git commit -m "Navbar added"
+
+git remote add origin <repository_url> (Adding remote url)
+
+git remote -v (To check the remotes)
+
+git push -u origin master (-u stands for upstream branches)
+
+git pull origin master

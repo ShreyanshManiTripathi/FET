@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+    <script>
+    if (true) {
+    // this 'if' conditional block doesn't create a scope
+    // name is in the global scope because of the 'var' keyword
+    var name = 'John';
+    // likes is in the local scope because of the 'let' keyword
+    let likes = 'Coding';
+    // skills is in the local scope because of the 'const' keyword
+    const skills = 'JavaScript and PHP';
+}
+console.log(name); // logs 'John'
+ console.log(likes); // Uncaught ReferenceError: likes is not defined
+console.log(skills); // Uncaught ReferenceError: skills is not defined
+</script>
+
+
+</body>
+</html>

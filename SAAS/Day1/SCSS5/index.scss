@@ -1,0 +1,21 @@
+.table{
+    border:2px solid purple;
+}
+
+.tr{
+    font-size:30px;
+}
+
+.td{
+    background-color:lightcoral
+}
+
+@mixin my-circle($rad,$color,$my-width){
+    border:2px solid;
+border-radius: $rad;
+background-color: $color;
+width:$my-width;
+}
+.circle{
+    @include my-circle(30px,lightgreen,100px)
+}

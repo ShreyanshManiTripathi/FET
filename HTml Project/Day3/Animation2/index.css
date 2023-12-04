@@ -1,0 +1,13 @@
+div{
+    animation:homeAnimation 10s;
+ position: 
+}
+
+@keyframes homeAnimation{
+    0%{background: green;position:absolute; left: 0px;top: 0px;}
+     20%{background: red;position:absolute; left: 200px;top: 0px;}
+      40%{background: yellow;position:absolute; left: 200px;top: 200px;}
+       60%{background: blue;position:absolute; left: 0px;top: 0px;}
+        80%{background: violet;position:absolute; left: 0px;top: 200px;}
+         100%{background: orange;position:absolute; left: 0px;top: 0px;}
+}

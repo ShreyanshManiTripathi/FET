@@ -1,0 +1,14 @@
+div{
+    column-count: 3;
+    column-gap: 50px;
+    column-width: 50px;
+    column-rule:2px solid;
+    
+    background-color: yellow;
+   
+    font-size: large;
+    text-shadow: 5px 5px 5px darkblue;
+    box-shadow: 8px 8px 15px red;
+    text-align: center;
+  
+}

@@ -1,0 +1,8 @@
+$primary_color:red;
+$box-margin:34px;
+
+.box{
+    background-color: $primary_color;
+    padding: $box-margin;
+    margin: $box-margin;
+}

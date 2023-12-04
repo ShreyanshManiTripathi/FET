@@ -1,0 +1,10 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: none;
+    width: none;
+    background: url(../images/o.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+  }

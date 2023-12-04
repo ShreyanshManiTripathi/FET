@@ -1,0 +1,6 @@
+
+$button-font:"Italic";
+
+@mixin myButton(){
+    font-style:$button-font
+}

@@ -1,0 +1,8 @@
+$primary_color:blue;
+$box_margin:34px;
+
+.box{
+    background-color: $primary_color;
+    padding: $box_margin+ 10px;
+    margin: $box_margin;
+}
